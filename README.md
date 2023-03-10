@@ -1,2 +1,2 @@
-# devnetlagi belajar Developer Network
+# devnet lagi belajar Developer Network
 #DevNet Developer Fun Repository README
