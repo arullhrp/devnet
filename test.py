@@ -25,12 +25,21 @@
 # for item in devices:
 #     print(item)
 
-routers=[]
-switches=[]
-devices=[\"RT1\", \"RT2\", \"RT3\", SW1\", \"SW2\", \"SW3\"]
-devices=devices + [\"RT4\", \"SW4\"]
-for i in devices:
-             if \"R\" in i:
-                    routers.append(i)
-             else: switches.append(i)
-switches  
+# routers=[]
+# switches=[]
+# devices=[\"RT1\", \"RT2\", \"RT3\", SW1\", \"SW2\", \"SW3\"]
+# devices=devices + [\"RT4\", \"SW4\"]
+# for i in devices:
+#              if \"R\" in i:
+#                     routers.append(i)
+#              else: switches.append(i)
+# switches  
+
+# "duplex {}".format("full")
+# 'duplex full'
+# "interface {name}, port {port}".format(name="gigabitethernet", port="0/1")
+# 'interface gigabitethernet, port 0/1'
+# "device hostname ipaddress".split(" ")
+# ['device', 'hostname', 'ipaddress']
+# ",".join(['device', 'hostname', 'ipaddress'])
+# 'device,hostname,ipaddress'
