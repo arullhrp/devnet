@@ -43,3 +43,12 @@
 # ['device', 'hostname', 'ipaddress']
 # ",".join(['device', 'hostname', 'ipaddress'])
 # 'device,hostname,ipaddress'
+
+tool = "git clone"
+host = "https://github.com/"
+org = "arullhrp"
+repo = "/netprog_basics"
+print({tool},{host},{org},{repo})
+
+nama = input ("Siapa nama lengkap Anda ? \nNama Saya : ")
+print("nama Anda adalah : " +nama )
